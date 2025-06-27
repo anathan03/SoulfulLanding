@@ -1,0 +1,58 @@
+I want to build a high-converting, soulful landing page website for my digital product — a Nurse Life Bundle — designed for nurses who feel burnt out, overwhelmed, or are prepping for the NCLEX.
+
+The site should follow Alex Hormozi’s core marketing principles:
+- Clear Value > Price messaging
+- Low friction layout and navigation
+- Emotionally resonant story and offer
+- High-contrast call-to-action
+- Trust-building refund policy and urgency
+- Optimized layout for mobile and desktop
+
+**Website Style**: Soulful, nurturing, calm — use soft blues, lavender, and pastel accents. Rounded edges, clean sans-serif fonts, and sectioned layout for clarity.
+
+**Page Structure (Single Page with Sticky Nav)**:
+1. **Hero Section**: 
+   - Powerful headline: “From Burnout to Balance — The Ultimate Nurse Life Bundle”
+   - Subheadline: “A soulful self-care + study system for new, busy, or burned-out nurses.”
+   - CTA button: “Get the Bundle for $6 on Etsy”
+   - Link to: https://studyflowco.etsy.com
+   - Include a soft gradient background, illustration/icon of a nurse, and trust note: “Refund guaranteed if not satisfied.”
+
+2. **What’s Inside Section**: 
+   - Display cards for each of the 5 components with icons or images:
+     - 90-Day Soulful Gratitude Journal (PDF)
+     - Burnout Recovery Journal (PDF)
+     - Free Mindfulness Exercises (Bonus PDF)
+     - Study Flashcards (Quizlet: Labs, Acid-Base, Pharm)
+     - Self-Care Shift Planner (Google Sheets)
+   - Optional button: “See it in action on Etsy”
+
+3. **Why This Helps**: 
+   - Brief paragraph: “Created by someone who works alongside nurses daily, this bundle brings peace, structure, and clarity into their hectic days.”
+   - Bullet points:
+     - 🧠 Stress less with easy-to-follow self-care
+     - 📋 Prep smarter with high-yield NCLEX notes
+     - 📅 Stay organized with shift and budget planners
+
+4. **Urgency Callout**:
+   - Box or banner: “Only 15 bundles available — grab yours before they’re gone.”
+
+5. **Guarantee Section**:
+   - Soft blockquote style: “If it doesn’t help you feel calmer or more organized, get a full refund. No questions asked.”
+
+6. **Email Opt-In Pop-Up**:
+   - Pop-up triggered after 10 seconds OR when user scrolls past 50%
+   - Message: “Want a free nurse self-care tracker? Enter your email to download it instantly.”
+   - Save email to a placeholder form or mock integration
+
+7. **Footer**:
+   - Simple footer with links: About, Contact, Refund Policy, Privacy, Disclaimer
+   - Include lightweight analytics script to simulate click and page tracking
+
+**Technical Features**:
+- All files: index.html, style.css, scripts.js
+- Add responsive design for mobile
+- Include placeholder code for email collection form + analytics
+- All links point to https://studyflowco.etsy.com
+
+Generate everything I need to deploy this landing page in Replit. Make it easy to customize and edit later.

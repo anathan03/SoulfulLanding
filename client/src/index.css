@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(237, 100%, 67%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* Custom nurse theme colors */
+  --nurse-blue: hsl(237, 100%, 67%);
+  --nurse-lavender: hsl(271, 91%, 65%);
+  --nurse-mint: hsl(160, 84%, 39%);
+  --nurse-pink: hsl(326, 78%, 64%);
+  --nurse-blue-50: hsl(237, 100%, 97%);
+  --nurse-purple-50: hsl(271, 91%, 97%);
+  --nurse-green-50: hsl(160, 84%, 97%);
+  --nurse-pink-50: hsl(326, 78%, 97%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(237, 100%, 67%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .nurse-gradient-blue {
+    background: linear-gradient(to right, hsl(var(--nurse-blue)), hsl(var(--nurse-lavender)));
+  }
+  
+  .nurse-gradient-mint {
+    background: linear-gradient(to right, hsl(var(--nurse-mint)), hsl(var(--nurse-blue)));
+  }
+  
+  .nurse-gradient-pink {
+    background: linear-gradient(to right, hsl(var(--nurse-pink)), hsl(var(--nurse-lavender)));
+  }
+  
+  .nurse-bg-gradient {
+    background: linear-gradient(135deg, hsl(var(--nurse-blue-50)), hsl(var(--nurse-purple-50)), hsl(var(--nurse-pink-50)));
+  }
+  
+  .text-nurse-blue {
+    color: hsl(var(--nurse-blue));
+  }
+  
+  .text-nurse-lavender {
+    color: hsl(var(--nurse-lavender));
+  }
+  
+  .text-nurse-mint {
+    color: hsl(var(--nurse-mint));
+  }
+  
+  .text-nurse-pink {
+    color: hsl(var(--nurse-pink));
+  }
+  
+  .bg-nurse-blue {
+    background-color: hsl(var(--nurse-blue));
+  }
+  
+  .bg-nurse-lavender {
+    background-color: hsl(var(--nurse-lavender));
+  }
+}
