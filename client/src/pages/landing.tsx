@@ -1,22 +1,3 @@
-import ContactFormPopup from "@/components/ContactForm";
-
-export default function LandingPage() {
-  return (
-    <main>
-      <section className="py-16">
-        <h1 className="text-4xl font-bold text-center">From Burnout to Balance</h1>
-        <p className="text-center text-lg text-gray-600 mt-4">
-          A soulful self-care + study bundle for nurses.
-        </p>
-        <div className="mt-6 flex justify-center">
-          <ContactFormPopup />
-        </div>
-      </section>
-
-      {/* Other sections */}
-    </main>
-  );
-}
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
